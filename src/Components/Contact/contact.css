@@ -1,0 +1,38 @@
+.contact-section{
+    margin: 10rem 0;
+}
+
+.contact{
+    margin-bottom: 2rem;
+}
+
+.contact-left img{
+    margin-top: 5rem;
+}
+
+.submit-btn{
+    padding: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--bgcolor);
+    border-radius: 5px;
+    font-weight: lighter;
+}
+.submit-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (max-width: 768px){
+
+    .contact-section{
+        margin: 5rem 0;
+    }
+
+    .contact-left img{
+        margin-top: 0;
+    }
+
+    .contact-right{
+        margin-top: 3rem;
+    }
+}

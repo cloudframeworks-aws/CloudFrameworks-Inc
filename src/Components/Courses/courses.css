@@ -1,0 +1,20 @@
+.heading{
+    font-weight: normal;
+    
+}
+
+.desc{
+    color: var(--text-color)
+}
+.course{
+    cursor: pointer;
+    color: black !important;
+    transition: transform .2s;
+}
+
+.course:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+

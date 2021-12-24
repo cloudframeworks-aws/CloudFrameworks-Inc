@@ -1,0 +1,65 @@
+#services{
+    margin: 10rem 0;
+}
+
+
+.work-container{
+    width: 80vw;
+    padding: 5rem;
+    box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, 0.1);
+    margin-top: -5rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.work-container .main-heading{
+   /* font-size: 3rem;
+    font-weight: lighter;*/
+    margin-bottom: 3rem;
+
+}
+
+.work-container .sub-heading{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.logo-style{
+    font-size: 3rem;
+    color: var(--primary-color);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: var(--bgcolor);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 2rem auto;
+    box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, 0.1);
+}
+.main-hero-para{
+    color: var(--text-color);
+}
+
+.hover-logo{
+    transition: transform .2s;
+    cursor: pointer;
+}
+.hover-logo:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+@media only screen and (max-width: 768px){
+
+    .work-container{
+        margin-top: -10rem;
+    }
+    .work-container-subdiv h2{
+        font-size: 1.5rem !important;
+    }
+    .main-hero-para{
+        font-size: 1rem !important;
+    }
+}

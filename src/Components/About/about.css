@@ -1,0 +1,54 @@
+.common-section{
+    margin: 7rem 0;
+}
+
+.our-services-description{
+    background-color: white;
+    /* z-index: -1; */
+    box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.our-services-info{
+    margin-top: 2rem;
+}
+
+.our-services .our-services-number{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  
+}
+
+.our-services-data{
+    color: var(--text-color);
+}
+
+.about-btn{
+    padding: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--bgcolor);
+    border-radius: 5px;
+    font-weight: lighter;
+    
+}
+
+@media only screen and (max-width: 768px){
+    .our-services-description{
+       width: 90%;
+       margin: 1.5rem auto;
+    }
+
+    .common-section{
+        margin: 0;
+    }
+
+    .our-services-left img{
+        margin-bottom: 1rem;
+    }
+
+    .div-btn{
+        margin: 10px 0;
+    }
+}

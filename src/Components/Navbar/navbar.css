@@ -1,0 +1,38 @@
+:root{
+    --bgcolor: #F1F5FD;
+    --primary-color: #6F5DE7;
+    --text-color: #828286;
+    --main-text-color: #333333;
+  }  
+  .navbar-bg{
+    
+    padding: 1rem 0;
+    z-index: 99;
+    position: relative;
+  }
+ 
+  .navbar-brand{
+   font-size: 1.5rem;
+   font-weight: lighter;
+    
+  }
+  .navbar li{
+    padding: 0 1.5rem;
+  }
+  .navbar li a{
+    font-size: 1.1rem;
+    font-weight: lighter;
+  }
+  
+  .navbar li a:hover{
+    color: var(--primary-color) !important;
+    text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+  }
+ 
+  @media only screen and (max-width: 768px){
+
+    .navbar .navbar-collapse{
+      margin-top: 1rem;
+      
+    }
+  }
