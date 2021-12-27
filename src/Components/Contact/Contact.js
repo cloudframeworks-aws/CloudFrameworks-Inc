@@ -26,7 +26,7 @@ const Contact = () => {
                                                 <div className='row'>
 
                                                     <div className='col-12 col-lg-6 contact'>
-                                                        <input type='text' className='form-control' name='firstname' placeholder='Your first name' />
+                                                        <input required type='text' className='form-control' name='firstname' placeholder='Your first name*' />
                                                     </div>
 
                                                     <div className='col-12 col-lg-6 contact'>
@@ -34,18 +34,18 @@ const Contact = () => {
                                                     </div>
 
                                                     <div className='col-12 col-lg-6 contact'>
-                                                        <input type='text' className='form-control' name='phone' placeholder='Your phone number' />
+                                                        <input required type='text' className='form-control' name='phone' placeholder='Your phone number*' />
                                                     </div>
 
                                                     <div className='col-12 col-lg-6 contact'>
-                                                        <input type='email' className='form-control' name='email' placeholder='Your email' />
+                                                        <input required type='email' className='form-control' name='email' placeholder='Your email*' />
                                                     </div>
 
                                                 </div>
 
                                                 <div className='row'>
                                                     <div className='col-12'>
-                                                        <textarea class='form-control contact' name='message' placeholder='Enter your message here...' rows='3'></textarea>
+                                                        <textarea required class='form-control contact' name='message' placeholder='Enter your message here...*' rows='3'></textarea>
 
                                                         <div className='col-12 text-center'>
                                                         <button type='submit' className='submit-btn w-100'>SEND</button>
