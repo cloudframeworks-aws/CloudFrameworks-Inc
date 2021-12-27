@@ -7,7 +7,7 @@ const Header = () => {
         <>
             <header>
 
-                <section className='container main-hero-container'>
+                <section className='container main-hero-container' id='header'>
 
                 {/* Header Left Side */}
                     <div className='row'>
