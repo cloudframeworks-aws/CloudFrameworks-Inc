@@ -24,7 +24,7 @@ const Contact = () => {
 
                
             setShow(true);
-          /*  const message = {
+            const message = {
                 "from_name": `${fname} ${lname}`,
                 "to_name": "CloudFrameWorks Inc.",
                 "email": email,
@@ -35,7 +35,7 @@ const Contact = () => {
             emailjs.send('service_s8uukfa', 'template_voht8ak', message, 'user_udbrYETEdQArEvBvAV5Bw').then((response) => {
                 console.log(response.text);
                 
-            }, (error) => {console.log(error.text)});   */
+            }, (error) => {console.log(error.text)});   
 
             
         }
